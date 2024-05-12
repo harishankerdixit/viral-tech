@@ -1,4 +1,4 @@
-import gaurav from "../../assets/gaurav.png";
+import gaurav from "../../assets/gaurav1.jpeg";
 import shivani from "../../assets/shivani.jpeg";
 import vivek from "../../assets/vivek.jpeg";  
 import shivam from "../../assets/shivam.jpeg";  
