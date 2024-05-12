@@ -1,0 +1,95 @@
+/* .home {
+  padding-left:4px;
+} */
+
+.hero_destinationpage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* Set the height to your preferred value */
+  position: relative;
+  overflow: hidden;
+  margin-top: 4.6%;
+}
+
+.banners{
+  height: 15%;
+  margin-left: 26%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1285px) {
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .home {
+    margin-top: 14px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .hero_destinationpage {
+    background-size: contain;
+    height: 400px;
+    margin-top: -10px;
+  }
+
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+}
+
+@media (max-width: 867px) {
+  .hero_destinationpage {
+    background-size: contain;
+    height: 200px;
+    margin-top: 9%; /* Adjust margin for better spacing */
+  }
+
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+
+}
+
+@media (max-width: 866px) {
+  .hero_destinationpage {
+    background-size: contain;
+    height: 300px;
+    margin-top: 9%; /* Adjust margin for better spacing */
+  }
+
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .hero_destinationpage {
+    background-size: contain;
+    height: 200px;
+    margin-top: 18%;
+  }
+
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero_destinationpage {
+    background-size: contain;
+    height: 200px;
+    margin-top: 9%;
+  }
+
+  .banners {
+    display: none !important; /* Hide the banner on smaller devices */
+  }
+
+}

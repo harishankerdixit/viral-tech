@@ -1,0 +1,94 @@
+# New SMTP Configuration For JSI Mail ID
+# MAIL_MAILER_NEW=smtp
+# MAIL_HOST_NEW=imap.secureserver.net
+# MAIL_PORT_NEW=993
+# MAIL_USERNAME_NEW=contactus@viraltechnologies.in
+# MAIL_PASSWORD_NEW=Gaurav@pass1
+# MAIL_ENCRYPTION_NEW=ssl
+# MAIL_FROM_ADDRESS_NEW="contactus@viraltechnologies.in"
+# MAIL_FROM_NAME_NEW="Viral Technologies"
+
+viraltechnologies.in@gmail.com
+E9B5CAF334A4C8BFC111B74F48D8FD719F97
+smtp.elasticemail.com
+2525
+
+secure token  2aecfffc-c1ac-4237-9f72-35a72ac2ee3d
+
+
+import React from 'react'
+import "./Contact.css"
+
+export const Contacts = () => {
+  return (
+    <section className="contact section-contact" id="contact">
+      <h2 className='section_title font-bold mb-4'>Get in touch</h2>
+      {/* <span className='section_subtitle'>Contact us</span> */}
+
+      <div className="contact_container container grid">
+        <div className="contact_content">
+          <h3 className="contact_title">Talk to us</h3>
+          <div className="contact_info">
+
+            <div className="contact_card">
+              <i className="bx bx-mail-send contact_card-icon"></i>
+
+              <h3 className="contact_card-title">Email</h3>
+              <span className="contact_card-data">contactus@viraltechnologies.in</span>
+
+              <a href="mailto:contactus@viraltechnologies.in" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+            </div>
+
+            <div className="contact_card">
+              <i className="bx bxl-whatsapp contact_card-icon"></i>
+
+              <h3 className="contact_card-title">Whatsapp</h3>
+              <span className="contact_card-data">9389486561</span>
+
+              <a href="https://api.whatsapp.com/send?phone=9389486561&text=Hii!!" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+            </div>
+
+            {/* <div className="contact_card">
+              <i className="bx bxl-messenger contact_card-icon"></i>
+
+              <h3 className="contact_card-title">Messanger</h3>
+              <span className="contact_card-data">Gaurav123</span>
+
+              <a href="https://api.whatsapp.com/send?phone=9389486561&text=Hii For More Information!!" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+            </div> */}
+
+          </div>
+        </div>
+
+        <div className="contact_content">
+          {/* <h3 className="contact_title">Write me your project</h3> */}
+
+          <form className="contact_form">
+            <div className="contact_form-div">
+              <label className="contact_form-tag">Name</label>
+              <input type="text" name='name' className="contact_form-input" placeholder='Enter your name' />
+            </div>
+
+            <div className="contact_form-div">
+              <label className="contact_form-tag">Mail</label>
+              <input type="email" name='email' className="contact_form-input" placeholder='Enter your email' />
+            </div>
+
+            <div className="contact_form-div contact_form-area">
+              <label className="contact_form-tag">Message</label>
+              <textarea name="message" cols="30" rows="10" className='contact_form-input' placeholder='Enter your message'></textarea>
+            </div>
+
+            <button className="button button--flex bg-black hover:bg-blue-800">
+              Send message <i className="bx bx-right-arrow-alt contact_button-icon"></i>
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+  )
+}

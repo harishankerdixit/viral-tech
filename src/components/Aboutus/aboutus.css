@@ -1,0 +1,31 @@
+.paragraph-text {
+    color: #fafafa; 
+}
+
+@media screen and (max-width: 992px ) {
+    .know-more {
+        margin-bottom: 20px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px ) {
+    .know-more {
+        margin-bottom: 20px;
+    }
+   
+  }
+  
+  @media screen and (max-width: 576 ) {
+    .know-more {
+        margin-bottom: 20px;
+    }
+  
+    }
+  
+  @media screen and (max-width: 350 ) {
+    .know-more {
+        margin-bottom: 20px;
+    }
+           
+  }
