@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hire.css';
+//import './Hire.css';
 import laravel from "../../assets/laravel.png"
 import php from "../../assets/php.png"
 import wordpress from "../../assets/wordpress.png"
